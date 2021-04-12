@@ -1,0 +1,6 @@
+name: "SonarLint Eclipse P2 Update Site Publish Action"
+description: "Publish a new release on the SonarLint Eclipse Update Site"
+author: "Jean-Baptiste Lièvremont & Damien Urruty"
+runs:
+  using: "docker"
+  image: "Dockerfile"
